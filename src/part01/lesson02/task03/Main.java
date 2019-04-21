@@ -19,9 +19,11 @@ public class Main {
         }
 
         // Вызов методов пузырьковой сортировки
+        final long startTime = System.nanoTime();
         BubbleSort.bubbleSortName(personList);
         BubbleSort.bubbleSortAge(personList);
         BubbleSort.bubbleSortSex(personList);
+        final long duration = System.nanoTime() - startTime;
 
         System.out.println("");
         System.out.println("После пузырьковой сортировки");
@@ -37,5 +39,6 @@ public class Main {
                 }
             }
         }
+        System.out.println("Время работы алгоритма пузырьковой сортировки: " + duration/1000000000 + " секунд");
     }
 }
