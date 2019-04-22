@@ -8,7 +8,7 @@ public class Person {
     int age;
     String sex;
     String name;
-    //ArrayList<Double> gaussianDistrib = new ArrayList<Double>();
+    
     int z;
     ArrayList<String> manNames = new ArrayList<>(Arrays.asList("Михаил Голубцов", "Павел Бородин", "Илья Гаврилов",
             "Ринат Рябиков", "Александр Мамонов", "Георгий Шишкин", "Дмитрий Пономаренко", "Максим Милованов"));
