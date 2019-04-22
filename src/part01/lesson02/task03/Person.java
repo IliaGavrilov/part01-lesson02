@@ -21,15 +21,18 @@ public class Person {
         this.name = setName();
     }
 
+    // Сеттер для поля возвраст на осномании рандомного значения
     public static int setAge() {
         return new Random().nextInt(100);
     }
 
+    // Генерирование рандомного значения нормального распределения
     public static double arrayGaussianDistrib() {
         double x = new Random().nextGaussian();
         return x;
     }
-
+    
+    // Использование рандомного значения метода arrayGaussianDistrib() для использования в определении пола
     public static int getGaussianELem() {
         double y = arrayGaussianDistrib();
         if (y > 0) {
