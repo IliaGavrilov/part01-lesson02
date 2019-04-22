@@ -38,6 +38,7 @@ public class Person {
         return 0;
     }
 
+    // Генерирование пола посредством вызова метода getGaussianELem()
     public String setSex() {
         z = getGaussianELem();
         if (z == 0) {
