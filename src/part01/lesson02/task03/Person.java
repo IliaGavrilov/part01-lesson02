@@ -46,7 +46,8 @@ public class Person {
         z = 1;
         return "WOMAN";
     }
-
+    
+    // Вызов имени из массива по рандомному индексу в зависимости от пола 
     public String setName() {
         if (z == 0) {
             int w = new Random().nextInt(manNames.size());
